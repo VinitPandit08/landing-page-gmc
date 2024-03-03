@@ -1,0 +1,706 @@
+
+/* ======================= ======================= ======================= 
+
+            CSS RESET STYLE 
+
+======================= ======================= ======================= */
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    transition: all .4s ease-in-out;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+
+a {
+    transition: all .2s ease-in-out;
+}
+
+hr {
+    opacity: .12 !important;
+}
+
+
+figure {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.partnerCTA {
+    background: #800000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 25px;
+    border-radius: 100px;
+    font-size: 16px;
+    margin: 0;
+}
+
+a.partnerCTAwhite {
+    background: #FFF;
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 25px;
+    border-radius: 100px;
+    font-size: 16px;
+    margin: 0;
+}
+
+a.partnerCTAwhite:hover, a.partnerCTA:hover{
+    background: #000;
+    color: #FFF;
+}
+
+/*.img-responsive {
+    width: 100%;
+}*/
+
+
+
+/* ======================= ======================= ======================= 
+
+            HEADER STYLE 
+
+======================= ======================= ======================= */
+
+header {
+    background: #fff;
+    padding: 20px 0px;
+    box-shadow: 0px 1px 5px rgb(204 204 204 / 31%);
+}
+
+.gmc-head  {
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+span.headerLogo {
+    width: 277px;
+    background: url(..//images/gmc-logo.png);
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px;
+    background-position: center;
+}
+
+/*STICKY-HEADER*/
+
+.sp-sticky{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.sp-sticky-child{
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.sp-sticky.sp-active{
+    /* box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .4); */
+}
+
+
+/* ======================= ======================= ======================= 
+
+            BANNER STYLE
+
+======================= ======================= ======================= */
+
+.gmclpBanner {
+    background-image: linear-gradient(37deg , #6C182A 0%, #5478E4 100%);
+}
+
+.gmclpBanner .d-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 480px;
+}
+
+.gmcbannerText {
+    padding-right: 20%;
+}
+
+.gmclpBanner h1 {
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.gmclpBanner p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.gmcbannerArt{
+    background: url(..//images/landingpage-banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.gmcbannerImg figure {
+    margin: 0px;
+}
+
+.gmcbannerImg figure img {
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+
+/* ======================= ======================= ======================= 
+
+            GMC FEATURES STYLE 
+
+======================= ======================= ======================= */
+
+.gmcFeatures {
+    padding: 40px 0px;
+}
+
+.sectionHeading {
+    text-align: center;
+    min-height: 80px;
+}
+
+.sectionHeading h2 {
+    font-size: 37px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.sectionHeading p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #666666;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.box_reverse {
+    flex-direction: row-reverse;
+}
+
+.get-started-right-section, .get-started-left-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 400px;
+}
+
+.get-started-right-section.content-aling {
+    padding: 0px 10%;
+}
+
+.get-started-left-section.content-aling {
+    padding: 0px 10%;
+}
+
+.get-started-left-section figure {
+    text-align: center;
+}
+
+.get-started-right-section h3, .get-started-left-section h3 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.get-started-right-section p, .get-started-left-section p {
+    font-size: 15px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+}
+
+
+/* ======================= ======================= ======================= 
+
+            MARKEING BANNER STYLE 
+
+======================= ======================= ======================= */
+
+.gmcMarketing {
+    padding: 20px 0px 40px;
+}
+
+.marketingBan {
+    background: url(..//images/marketing-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.marketing-conetent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 360px 
+}
+
+.marketing-conetent figure {
+    text-align: center;
+}
+
+.marketing-conetent p {
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.marketing-conetent a {
+    display: block;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+
+/* ======================= ======================= ======================= 
+
+            EASSY STEPS STYLE 
+
+======================= ======================= ======================= */
+
+.gmcEasySteps {
+    padding: 40px 0px 60px;
+}
+
+.gmcEasySteps figure img {
+    border-radius: 15px;
+}
+
+.easyStepBlock {
+    position: relative;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px rgb(204 204 204 / 30%);
+    margin: 20px 0px 0px;
+    padding: 30px 50px;
+}
+
+.easyStepBlock h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0px 10px;
+    color: #000;
+}
+
+.easyStepBlock p {
+    font-size: 15px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+    margin: 0;
+}
+
+.easyStepBlock span {
+    position: absolute;
+    top: -16px;
+    right: 30px;
+    font-size: 90px;
+    font-weight: 700;
+    color: #F6F6F6;
+}
+
+
+/* ======================= ======================= ======================= 
+
+            TESTIMONIALS STYLE 
+
+======================= ======================= ======================= */
+
+.gmcTestimonials {
+    background: #F9F2F2;
+    padding: 40px 0px;
+}
+
+.gmcTestimonialsCrousal {
+
+}
+
+.easyStepBlock {
+    position: relative;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px rgb(204 204 204 / 30%);
+    margin: 20px 0px 0px;
+    padding: 30px 50px;
+}
+
+.saysBlock {
+    position: relative;
+    background: #fff;
+    border-radius: 30px;
+/*    box-shadow: 10px 10px 40px rgb(204 204 204 / 30%);*/
+    margin: 30px 20px 10px;
+    padding: 30px 40px;
+}
+
+.saysBlock h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0px 10px;
+    color: #000;
+}
+
+.saysBlock p {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin: 20px 0px 20px;
+}
+
+.saysBlock span {
+    background: url(..//images/quot-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 53px;
+    height: 38px;
+    position: absolute;
+    top: -16px;
+    left: 30px;
+    font-size: 90px;
+    font-weight: 700;
+    color: #F6F6F6;
+}
+
+.gmchappycustomer {
+    display: flex;
+}
+
+.gmchappycustomer figure {
+    margin-right: 20px;
+}
+
+.gmchappycustomer p{
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin: 10px 0px 0px;
+}
+
+.gmchappycustomer p strong {
+    display: block;
+}
+
+
+/* ======================= ======================= ======================= 
+
+            FAQ STYLE 
+
+======================= ======================= ======================= */
+
+.gmc-faq-wrap {
+    padding: 40px 0px;
+}
+
+.accordion-header .accordion-button {
+    font-family: 'Philosopher', sans-serif;
+    color: #333!important;
+    font-size: 18px;
+    margin: 0px 0px;
+    font-weight: 700;
+}
+
+.accordion-body {
+    font-family: 'Poppins', sans-serif;
+    color: #666666 !important;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0px 2rem 1rem 1.25rem !important;
+}
+
+button:focus:not(:focus-visible) {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #800000 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    margin-bottom: 0px;
+    font-size: 18px!important;
+    padding: 1rem 1.25rem 0.4rem 1.25rem !important;
+}
+
+.accordion-button {
+    background-color: transparent!important;
+}
+
+.icon {
+    background-color: red;
+    -webkit-mask:  url(icon.svg) no-repeat 50% 50%;
+    mask: url(icon.svg) no-repeat 50% 50%;
+}
+
+.accordion-item {
+    border: 1px solid rgb(128 0 0 / 40%)  !important;
+    /* border-bottom: none !important; */
+    /* border-right: none !important; */
+    /* border-left: none !important; */
+    /* background-color: transparent !important; */
+    margin-bottom: 12px;
+    border-radius: 15px !important;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.65 9.35V11.9C7.65 12.1408 7.7316 12.3428 7.8948 12.506C8.058 12.6692 8.25973 12.7506 8.5 12.75C8.74083 12.75 8.94285 12.6684 9.10605 12.5052C9.26925 12.342 9.35057 12.1403 9.35 11.9V9.35H11.9C12.1408 9.35 12.3428 9.2684 12.506 9.1052C12.6692 8.942 12.7506 8.74027 12.75 8.5C12.75 8.25917 12.6684 8.05715 12.5052 7.89395C12.342 7.73075 12.1403 7.64943 11.9 7.65H9.35V5.1C9.35 4.85917 9.2684 4.65715 9.1052 4.49395C8.942 4.33075 8.74027 4.24943 8.5 4.25C8.25917 4.25 8.05715 4.3316 7.89395 4.4948C7.73075 4.658 7.64943 4.85973 7.65 5.1V7.65H5.1C4.85917 7.65 4.65715 7.7316 4.49395 7.8948C4.33075 8.058 4.24943 8.25973 4.25 8.5C4.25 8.74083 4.3316 8.94285 4.4948 9.10605C4.658 9.26925 4.85973 9.35057 5.1 9.35H7.65ZM8.5 17C7.32417 17 6.21917 16.7767 5.185 16.3302C4.15083 15.8837 3.25125 15.2782 2.48625 14.5137C1.72125 13.7487 1.11577 12.8492 0.6698 11.815C0.223833 10.7808 0.000566667 9.67583 0 8.5C0 7.32417 0.223267 6.21917 0.6698 5.185C1.11633 4.15083 1.72182 3.25125 2.48625 2.48625C3.25125 1.72125 4.15083 1.11577 5.185 0.6698C6.21917 0.223833 7.32417 0.000566667 8.5 0C9.67583 0 10.7808 0.223267 11.815 0.6698C12.8492 1.11633 13.7487 1.72182 14.5137 2.48625C15.2787 3.25125 15.8845 4.15083 16.331 5.185C16.7776 6.21917 17.0006 7.32417 17 8.5C17 9.67583 16.7767 10.7808 16.3302 11.815C15.8837 12.8492 15.2782 13.7487 14.5137 14.5137C13.7487 15.2787 12.8492 15.8845 11.815 16.331C10.7808 16.7776 9.67583 17.0006 8.5 17ZM8.5 15.3C10.3983 15.3 12.0062 14.6412 13.3237 13.3237C14.6412 12.0062 15.3 10.3983 15.3 8.5C15.3 6.60167 14.6412 4.99375 13.3237 3.67625C12.0062 2.35875 10.3983 1.7 8.5 1.7C6.60167 1.7 4.99375 2.35875 3.67625 3.67625C2.35875 4.99375 1.7 6.60167 1.7 8.5C1.7 10.3983 2.35875 12.0062 3.67625 13.3237C4.99375 14.6412 6.60167 15.3 8.5 15.3Z' fill='%23333333'/%3E%3C/svg%3E%0A")!important;
+    opacity: 0.6 !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-137deg) !important;
+    opacity: 1 !important;
+}
+
+.accordion-header .accordion-button:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f111";
+    font-size: 7px;
+    display: inline-block;
+    margin-right: 7px;
+    color: #800000;
+    float: left;
+}
+
+
+/* ======================= ======================= ======================= 
+
+            ABOUT GROW MY CLASS STYLE 
+
+======================= ======================= ======================= */
+
+.gmcAbout {
+    background: #F9F2F2;
+    padding: 40px 0px;
+}
+
+.gmcAbout figure {
+    width: 335px;
+    height: 270px;
+}
+
+.gmcAbout figure img {
+    margin-top: 10px;
+}
+
+.AboutUs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 280px;
+}
+
+.AboutUs h3 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.AboutUs h3 span {
+    font-size: 26px;
+    display: block;
+    color: #800000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.AboutUs p {
+    color: #956C6C;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* ======================= ======================= ======================= 
+
+            GLOBAL CLIENTS STYLE 
+
+======================= ======================= ======================= */
+
+.gmcClients {
+    padding: 50px 0px;
+}
+
+.gmcClientsCrousal img {
+    border-radius: 20px;
+}
+
+
+/* ======================= ======================= ======================= 
+
+            FOOTER STYLE 
+
+======================= ======================= ======================= */
+
+.gmcFooter {
+    background: #2C2D30;
+    padding: 40px 0px 40px;
+    text-align: center;
+}
+
+.footerLinks ul.socialMediaslinks {
+    padding: 0px;
+    margin: 8px 0px -2px;
+}
+
+.footerLinks ul.socialMediaslinks li {
+    padding: 0px 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 15px;
+}
+
+.footerLinks ul.socialMediaslinks li a {
+    color: #2c2d30;
+    font-size: 23px;
+    background: #8A8A8A;
+    width: 35px;
+    height: 35px;
+    display: block;
+    padding: 6px 0px 0px;
+    border-radius: 50px;
+}
+
+.footerLinks ul.socialMediaslinks li a:hover {
+    background: #fff;
+    color: #2c2d30;
+}
+
+.footerLinks ul {
+    padding: 0px;
+    margin: 20px 0px 10px;
+}
+
+.footerLinks ul li {
+    padding: 0px 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 15px;
+}
+
+.footerLinks ul li.sepratorLine {
+    border-left: 1px solid #8A8A8A;
+    border-right: 1px solid #8A8A8A;
+}
+
+.footerLinks ul li a {
+    font-size: 15px;
+    color: #8A8A8A;
+}
+
+.footerLinks ul li a:hover {
+    color: #fff;
+}
+
+.footerLinks p {
+    color: #8A8A8A;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

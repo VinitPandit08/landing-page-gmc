@@ -1,0 +1,240 @@
+
+@media screen and (max-width:768px) {
+
+	.sectionHeading h2 {
+    	font-size: 30px;
+	}
+
+	.box_reverse {
+    	flex-direction: column-reverse;
+	}
+
+	.box_reverse_alt {
+    	flex-direction: column-reverse;
+	}
+
+
+	/* ======================== 
+	HEADER STYLE
+	======================== */
+
+	span.headerLogo {
+	    width: 46px;
+	    background: url(../images/gmc-icon.png);
+	    padding: 20px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    margin: 0px 0px 0px;
+	    background-position: center;
+	}
+
+	.sectionHeading {
+	    text-align: center;
+	    min-height: 110px;
+	}
+
+	/* ======================== 
+	BANNER STYLE
+	======================== */
+
+	.gmcbannerArt {
+	    background: url(..//images/landingpage-banner-bg.png);
+	    background-repeat: no-repeat;
+	    background-position: 50% 108%;
+	    background-size: 120%;
+	}
+
+	.gmcbannerText {
+	    padding-right: 0;
+	}
+
+	.gmclpBanner h1 {
+	    font-size: 37px;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+
+	.gmclpBanner p {
+	    font-size: 18px;
+	    line-height: 27px;
+	    text-align: center;
+	}
+
+	.gmclpBanner .d-flex {
+	    min-height: 320px;
+	}
+
+	.gmcbannerImg {
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+
+	.gmcbannerImg figure img {
+	    float: none;
+	    margin: auto;
+	    width: 70%;
+	    text-align: center;
+	}
+
+
+	/* ======================== 
+	GMC FEATURES STYLE
+	======================== */
+
+	.get-started-right-section, .get-started-left-section {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    min-height: 360px;
+	}
+
+	.get-started-right-section.content-aling {
+    	padding: 0px 5%;
+	}
+
+	.get-started-left-section.content-aling {
+	    padding: 0px 5%;
+	}
+
+
+	/* ======================== 
+	MARKEING BANNER STYLE
+	======================== */
+
+	.gmcMarketing .box_reverse {
+		flex-direction: column;
+	}
+
+	.marketingBan {
+	    border-radius: 50px;
+	}
+	
+	.marketing-conetent img{
+		width: 67% !important;
+	}
+
+	.marketing-conetent p {
+	    font-size: 16px;
+	    margin-bottom: 20px;
+	    padding: 10px 20px 0px;
+	}
+
+	.marketingBan img {
+		width: 100%;
+	}
+
+	.marketing-conetent a {
+	    display: block;
+	    width: 60%;
+	    text-align: center;
+	    font-size: 18px;
+	    margin: 0px auto;
+	}
+
+	.marketing-conetent {
+	    min-height: auto;
+	    margin: 50px 0px;
+	}
+
+
+	/* ======================== 
+	EASSY STEPS STYLE
+	======================== */
+
+	.easyStepBlock {
+	    margin: 20px 0px 20px;
+	    padding: 30px 50px;
+	    box-shadow: 10px 10px 40px rgb(204 204 204 / 50%);
+	}
+
+
+
+	/* ======================== 
+	TESTIMONIALS STYLE
+	======================== */
+
+	.owl-carousel .owl-controls .owl-nav .owl-prev {
+	    left: 0px !important;
+	    top: 45%;
+	    position: absolute;
+	}
+
+	.owl-carousel .owl-controls .owl-nav .owl-next {
+	    right: 0px !important;
+	    top: 45%;
+	    position: absolute;
+	}
+
+
+
+	/* ======================== 
+	ABOUT US
+	======================== */
+
+	.gmcAbout figure {
+	    width: 100%;
+	    height: auto;
+	}
+
+	.gmcAbout figure img {
+	    margin: 10px auto 0;
+	    width: 50%;
+	}
+
+	.gmcAbout figure {
+		text-align: center;
+	}
+
+	.AboutUs {
+		text-align: center;
+		min-height: auto;
+	}
+
+	.AboutUs h3 span {
+	    font-size: 22px;
+	}
+
+	.AboutUs h3 {
+	    color: #000;
+	    font-size: 28px;
+	}
+
+
+
+
+	/* ======================== 
+	GLOBAL CLIENTS STYLE
+	======================== */
+
+	.owl-carousel .owl-item img {
+	    display: block;
+		border-radius: 10px;
+	}
+
+
+
+	/* ======================== 
+	FOOTER
+	======================== */
+
+	.footerLinks img {
+		width: 80%;
+	}
+
+	.footerLinks p {
+	    margin: 0;
+	    padding: 0px 17%;
+	}
+
+	.footerLinks ul li a {
+	    color: #8A8A8A;
+	    font-size: 14px;
+	}
+
+	.footerLinks ul li {
+    	padding: 0px 10px;
+	}
+
+
+}
+/* ----------------------------------------------------max-width:768px -- Ends*/
